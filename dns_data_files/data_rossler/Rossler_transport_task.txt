@@ -1,0 +1,23 @@
+0.2		parameter a
+0.2		parameter b
+3.0		parameter c
+300.	parameter L
+1.0 	Dv (AKA ratio of diffusion coefficients)
+
+601	ndim (Number of gridpoints in each direction)
+0.8		ts   (Timestep as fraction of diffusion stability limit)
+0.0		delta
+
+12500	Number of time steps to take
+10		Time steps per plot   [ >0 = plot | <0 = plot and write]
+0		Time steps per locating spiral tip  [0 = no tip]
+10		Time steps per writing tip/history  [0 = no write]
+0		Time steps per writing wavelength   [0 = no wavelength]
+10,10		(i,j) history point.            [(0,0) = no history point]
+
+0		u_plot  if 1 then plot u field
+1		v_plot  if 1 then plot v and w field
+1		verbose: Level of diagnostics: 0 for none
+                                               1 for normal
+                                               2 for detailed
+                                               3 for all kinds of stuff
