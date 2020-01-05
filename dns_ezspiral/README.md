@@ -1,6 +1,6 @@
 # EZSpiral files
 
-Initial conditions and driver files are located as compressed archive files for each model. The following changes in the code are needed to run the different models:
+Initial conditions and driver files for each model can be found in the folder "dns_data_files". The following changes in the code are needed to run the different models:
 
 * Bar-Eiswirth:
   * ezstep.h: change G(u,v)
